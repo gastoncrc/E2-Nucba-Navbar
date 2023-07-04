@@ -120,6 +120,22 @@ nav {
   color: white;
   border-radius: 10px;
   padding: 4px 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.bottom-info button {
+  background-color: #bf2a1d;
+  color: white;
+  border-radius: 10px;
+  padding: 4px 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.bottom-info button:hover {
+  background-color: white;
+  color: #bf2a1d;
 }
 
 .img-hero {
