@@ -6,6 +6,14 @@
   box-sizing: border-box;
   list-style: none;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-image: url(./img/back-main.jpg);
+  background-size: cover;
 }
 
 header {
@@ -13,7 +21,6 @@ header {
   background-color: rgba(0, 0, 0, 0.479);
   display: flex;
   position: fixed;
-
   justify-content: space-between;
   width: 100%;
   align-items: center;
@@ -50,9 +57,113 @@ nav {
   color: #bf2a1d;
 }
 
-.hero {
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-image: url(./img/back-main.jpg);
-  background-size: cover;
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0px 0px 0px;
+}
+
+.container-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 100%;
+  gap: 1rem;
+  background-color: #27252588;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+
+.info-dimetro {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  width: 50%;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.479);
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.info-dimetro h1 {
+  font-size: 2.5rem;
+  color: white;
+  line-height: 2.5rem;
+}
+
+.info-dimetro h1 span {
+  font-size: 3rem;
+  color: #bf2a1d;
+  font-weight: 600;
+}
+
+.info-dimetro p {
+  color: white;
+  text-align: justify;
+}
+
+.info-dimetro p span {
+  color: #bf2a1d;
+  font-weight: 600;
+}
+
+.bottom-info {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.info-dimetro a {
+  background-color: #bf2a1d;
+  color: white;
+  border-radius: 10px;
+  padding: 4px 10px;
+}
+
+.img-hero {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  height: 350px;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.arte-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  background-color: rgba(0, 0, 0, 0.479);
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+  gap: 1rem;
+}
+
+.arte-container h2 {
+  color: white;
+}
+
+.arte-container p {
+  color: white;
+  text-align: justify;
+}
+
+.arte-container p span {
+  color: #bf2a1d;
+  font-weight: 600;
 }
