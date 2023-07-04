@@ -16,6 +16,8 @@ body {
   background-size: cover;
 }
 
+/* <!-- ======================================== HEADER ======================================== --> */
+
 header {
   height: 100px;
   background-color: rgba(0, 0, 0, 0.479);
@@ -57,6 +59,8 @@ nav {
   color: #bf2a1d;
 }
 
+/* <!-- ======================================== HERO ======================================== --> */
+
 #hero {
   display: flex;
   align-items: center;
@@ -80,7 +84,7 @@ nav {
   padding: 2rem 2rem;
   width: 50%;
   height: 350px;
-  background-color: rgba(0, 0, 0, 0.479);
+  /* background-color: rgba(0, 0, 0, 0.479); */
   border-radius: 1rem;
   align-items: center;
   justify-content: center;
@@ -88,42 +92,35 @@ nav {
 }
 
 .info-dimetro h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: white;
   line-height: 2.5rem;
 }
 
 .info-dimetro h1 span {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #bf2a1d;
   font-weight: 600;
 }
 
 .info-dimetro p {
   color: white;
-  text-align: justify;
 }
 
 .info-dimetro p span {
   color: #bf2a1d;
   font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .bottom-info {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
 }
 
-.info-dimetro a {
-  background-color: #bf2a1d;
-  color: white;
-  border-radius: 10px;
-  padding: 4px 10px;
-  border: none;
-  font-size: 1rem;
-}
-
+.info-dimetro a,
 .bottom-info button {
   background-color: #bf2a1d;
   color: white;
@@ -149,12 +146,14 @@ nav {
   gap: 1rem;
 }
 
+/* <!-- ======================================== ABOUT ======================================== --> */
+
 #about {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem 2rem;
-  backdrop-filter: sepia(60%);
+  backdrop-filter: sepia(70%);
 }
 
 .arte-container {
@@ -164,7 +163,7 @@ nav {
   justify-content: center;
   max-width: 1200px;
   height: 150px;
-  background-color: rgba(0, 0, 0, 0.479);
+  /* background-color: rgba(0, 0, 0, 0.479); */
   border-radius: 1rem;
   padding: 2rem 2rem;
   gap: 1rem;
@@ -172,6 +171,7 @@ nav {
 
 .arte-container h2 {
   color: white;
+  font-size: 3rem;
 }
 
 .arte-container p {
