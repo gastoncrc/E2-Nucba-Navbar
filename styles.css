@@ -7,6 +7,9 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+}
+
+html {
   scroll-padding-top: 90px;
 }
 
