@@ -4,7 +4,7 @@
   --gray: rgba(0, 0, 0, 0.479);
   --red: #bf2a1d;
   --white: rgba(255, 255, 255);
-  --white-transp: rgba(255, 255, 255, 0.687);
+  --white-transp: rgba(255, 255, 255, 0.802);
 }
 
 * {
@@ -21,9 +21,12 @@ html {
 }
 
 body {
+  background-color: black;
   height: 1200px;
   background-repeat: no-repeat;
-  background-image: url(./img/back-main.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(./img/back-main.jpg);
+  /* background-image: url(./img/back-main.jpg); */
   background-size: cover;
 }
 
