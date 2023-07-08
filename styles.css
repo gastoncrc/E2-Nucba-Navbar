@@ -26,7 +26,7 @@ body {
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
     url(./img/back-main.jpg);
-  background-size: cover;
+  background-size: contain;
 }
 
 /* <!-- ======================================== HEADER ======================================== --> */
