@@ -86,7 +86,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 100px 0px 0px 0px;
-  backdrop-filter: sepia(70%);
+  /* backdrop-filter: sepia(70%); */
 }
 
 .container-hero {
@@ -308,7 +308,7 @@ main {
 .mail,
 .phone {
   width: 20px;
-  im var(--white);
+  color: var(--white);
 }
 
 .ubication {
