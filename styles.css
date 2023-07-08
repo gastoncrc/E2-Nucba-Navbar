@@ -40,6 +40,7 @@ header {
   width: 100%;
   align-items: center;
   padding: 0 5.5rem;
+  z-index: 99;
 }
 
 .navbar-img img {
@@ -85,7 +86,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 100px 0px 0px 0px;
-  /* backdrop-filter: sepia(70%); */
+  backdrop-filter: sepia(70%);
 }
 
 .container-hero {
@@ -170,7 +171,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 1rem 2rem;
-  /* backdrop-filter: sepia(30%); */
+  backdrop-filter: sepia(30%);
   width: 100%;
   height: 250px;
   max-width: 1200px;
@@ -211,7 +212,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 2rem 2rem;
-  /* backdrop-filter: sepia(70%); */
+  backdrop-filter: sepia(70%);
   /* background-color: var(--white-transp); */
   max-width: 1200px;
   width: 100%;
@@ -307,6 +308,7 @@ main {
 .mail,
 .phone {
   width: 20px;
+  im var(--white);
 }
 
 .ubication {
