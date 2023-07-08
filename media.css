@@ -1,0 +1,82 @@
+:root {
+  --gray: rgba(0, 0, 0, 0.479);
+  --red: rgb(191, 42, 29);
+  --white: rgba(255, 255, 255);
+  --red-transp: #bf2b1dad;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+/* =============================== 1200 PX ============================= */
+
+@media (max-width: 1200px) {
+  .container-hero {
+    max-width: 950px;
+  }
+
+  .img-hero {
+    height: 250px;
+  }
+
+  .arte-container {
+    max-width: 950px;
+  }
+}
+
+/* =============================== 992 PX ============================= */
+@media (max-width: 992px) {
+  .container-hero {
+    max-width: 740px;
+    flex-direction: column;
+  }
+
+  .info-dimetro {
+    width: 80%;
+    background-color: var(--gray);
+  }
+
+  .img-hero {
+    display: none;
+  }
+
+  #about {
+    max-width: 740px;
+  }
+  .cards {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  #contact-us {
+    max-width: 740px;
+  }
+
+  .container-contact-us {
+    flex-direction: column;
+  }
+
+  .date-container {
+    justify-content: center;
+    width: 70%;
+  }
+
+  .ubication {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* =============================== 768 PX ============================= */
+@media (max-width: 768px) {
+}
+
+/* =============================== 576 PX ============================= */
+@media (max-width: 576px) {
+}

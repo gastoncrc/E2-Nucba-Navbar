@@ -22,7 +22,7 @@ html {
 
 body {
   background-color: black;
-  height: 1200px;
+  /* height: 1200px; */
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
     url(./img/back-main.jpg);
@@ -172,9 +172,9 @@ main {
   justify-content: center;
   padding: 1rem 2rem;
   backdrop-filter: sepia(30%);
+  max-width: 1200px;
   width: 100%;
   height: 250px;
-  max-width: 1200px;
 }
 
 .arte-container {
@@ -182,7 +182,6 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 1200px;
   height: 150px;
   border-radius: 1rem;
   padding: 2rem 2rem;
@@ -237,6 +236,7 @@ main {
   align-items: center;
   justify-content: center;
   width: 300px;
+  height: 400px;
   gap: 1rem;
   background-color: var(--red-transp);
   padding: 1rem 1rem;
@@ -290,7 +290,7 @@ main {
   gap: 1rem;
 }
 
-.date {
+.date-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -300,7 +300,29 @@ main {
 
 .central,
 .sucursal {
+  display: flex;
+  flex-direction: column;
   color: var(--white);
+}
+
+.nets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  gap: 8rem;
+}
+
+.nets p i {
+  width: 15px;
+  color: var(--white);
+}
+
+.nets p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .point,
