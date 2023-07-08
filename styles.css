@@ -26,7 +26,6 @@ body {
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
     url(./img/back-main.jpg);
-  /* background-image: url(./img/back-main.jpg); */
   background-size: cover;
 }
 
@@ -212,7 +211,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 2rem 2rem;
-  backdrop-filter: sepia(70%);
+  /* backdrop-filter: sepia(70%); */
   /* background-color: var(--white-transp); */
   max-width: 1200px;
   width: 100%;
@@ -271,7 +270,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: aqua;
+  /* background-color: aqua; */
   max-width: 1200px;
   width: 100%;
   padding: 2rem 2rem;
@@ -335,8 +334,3 @@ main {
   font-size: 10px;
   gap: 2rem;
 }
-
-/* .developer p span {
-  font-size: 1rem;
-
-} */
