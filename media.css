@@ -62,6 +62,7 @@
   }
 
   .date-container {
+    display: flex;
     justify-content: center;
     width: 70%;
   }
@@ -75,6 +76,20 @@
 
 /* =============================== 768 PX ============================= */
 @media (max-width: 768px) {
+  .container-hero {
+    max-width: 540px;
+  }
+
+  .info-dimetro {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-products {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
 /* =============================== 576 PX ============================= */
