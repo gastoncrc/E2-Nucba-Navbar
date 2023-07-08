@@ -305,6 +305,12 @@ main {
   color: var(--white);
 }
 
+.central ul li,
+.sucursal ul li {
+  align-items: center;
+  gap: 1rem;
+}
+
 .nets {
   display: flex;
   justify-content: center;
@@ -326,10 +332,11 @@ main {
 }
 
 .point,
-.mail,
-.phone {
-  width: 20px;
+.email,
+.whatsapp {
+  font-size: 20px;
   color: var(--white);
+  width: 20px;
 }
 
 .ubication {

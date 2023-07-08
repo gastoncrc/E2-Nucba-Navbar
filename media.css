@@ -94,4 +94,90 @@
 
 /* =============================== 576 PX ============================= */
 @media (max-width: 576px) {
+  .container-hero {
+    max-width: 360px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .info-dimetro h1 {
+    font-size: 2rem;
+  }
+
+  .info-dimetro h1 span {
+    font-size: 2.5 rem;
+  }
+
+  .info-dimetro p {
+    font-size: 14px;
+  }
+
+  .info-dimetro p span {
+    font-size: 14px;
+  }
+
+  .btn-red {
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 6px;
+    padding: 1px 5px;
+    font-size: 12px;
+  }
+
+  #about {
+    max-width: 360px;
+    height: none;
+    padding: 2rem 1rem;
+  }
+
+  .arte-container {
+    font-size: 14px;
+  }
+
+  .arte-container h2 {
+    font-size: 20px;
+  }
+
+  #products h2 {
+    font-size: 20px;
+  }
+
+  #contact-us h2 {
+    font-size: 20px;
+  }
+
+  .central h3,
+  .sucursal h3 {
+    font-size: 12px;
+  }
+
+  .central,
+  .sucursal {
+    font-size: 10px;
+  }
+
+  .point,
+  .email,
+  .whatsapp {
+    font-size: 15px;
+    background-color: aqua;
+  }
+
+  .nets {
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    font-size: 10px;
+  }
+
+  .ubication {
+    width: 340px;
+  }
+
+  .developer p {
+    font-size: 8px;
+  }
 }
+
+/* =============================== 375 PX ============================= */
