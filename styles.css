@@ -86,7 +86,6 @@ main {
   align-items: center;
   justify-content: center;
   padding: 100px 0px 0px 0px;
-  /* backdrop-filter: sepia(70%); */
 }
 
 .container-hero {
@@ -148,7 +147,8 @@ main {
   font-size: 1rem;
 }
 
-.buttom-info-hero a:hover {
+.buttom-info-hero a:hover,
+.cards a:hover {
   background-color: var(--white);
   color: var(--red);
 }
@@ -213,7 +213,6 @@ main {
   justify-content: center;
   padding: 2rem 2rem;
   backdrop-filter: sepia(70%);
-  /* background-color: var(--white-transp); */
   max-width: 1200px;
   width: 100%;
   height: 100%;
@@ -322,6 +321,19 @@ main {
   align-items: center;
   justify-content: center;
   padding: 10px;
+}
+
+.sucursal ul li,
+.central ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.point,
+.email,
+.whatsapp {
+  font-size: 1rem;
 }
 
 .logo-buttom {
