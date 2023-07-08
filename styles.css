@@ -132,7 +132,7 @@ main {
   font-size: 1.2rem;
 }
 
-.buttom-info-hero {
+.bottom-info-hero {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -147,7 +147,7 @@ main {
   font-size: 1rem;
 }
 
-.buttom-info-hero a:hover,
+.bottom-info-hero a:hover,
 .cards a:hover {
   background-color: var(--white);
   color: var(--red);
@@ -312,6 +312,7 @@ main {
 
 .ubication {
   width: 500px;
+  padding: 2rem 2rem;
 }
 
 /* <!-- ======================================== FOOTER ======================================== --> */
