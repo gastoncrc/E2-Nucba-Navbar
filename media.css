@@ -3,7 +3,7 @@
   --red: rgb(191, 42, 29);
   --white: rgba(255, 255, 255);
   --red-transp: #bf2b1dad;
-  --gray-dark: rgba(0, 0, 0, 0.886);
+  --gray-dark: rgb(17, 15, 15);
 }
 * {
   padding: 0px;
@@ -142,7 +142,7 @@
 /* =============================== 576 PX ============================= */
 @media (max-width: 576px) {
   .navbar-list {
-    width: 70%;
+    width: 100%;
     padding-top: 1rem;
   }
 
@@ -178,7 +178,7 @@
   }
 
   #about {
-    max-width: 360px;
+    max-width: 550px;
     height: none;
     padding: 2rem 1rem;
   }
