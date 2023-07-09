@@ -73,6 +73,12 @@ nav {
   color: var(--red);
 }
 
+.logo-navbar,
+.menu-label,
+#menu-icon {
+  display: none;
+}
+
 /* <!-- ======================================== HERO ======================================== --> */
 main {
   display: flex;

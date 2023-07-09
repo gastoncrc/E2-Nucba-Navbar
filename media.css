@@ -3,6 +3,7 @@
   --red: rgb(191, 42, 29);
   --white: rgba(255, 255, 255);
   --red-transp: #bf2b1dad;
+  --gray-dark: rgba(0, 0, 0, 0.886);
 }
 * {
   padding: 0px;
@@ -31,6 +32,48 @@
 
 /* =============================== 992 PX ============================= */
 @media (max-width: 992px) {
+  .navbar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+  }
+
+  .logo-navbar {
+    display: flex;
+    width: 100px;
+  }
+
+  .menu-label {
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+    color: var(--white);
+  }
+
+  .navbar-list {
+    position: absolute;
+    top: 100px;
+    right: 0%;
+    width: 30%;
+    height: 100vp;
+    flex-direction: column;
+    border-radius: 0px 0px 10px 10px;
+    padding: 3rem 2rem;
+    gap: 2rem;
+    /* align-items: flex-end; */
+    background-color: var(--gray-dark);
+    display: none;
+  }
+
+  .navbar-list a {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  #menu-icon:checked + .navbar-list {
+    display: flex;
+  }
+
   .container-hero {
     max-width: 740px;
     flex-direction: column;
@@ -76,6 +119,10 @@
 
 /* =============================== 768 PX ============================= */
 @media (max-width: 768px) {
+  .navbar-list {
+    width: 50%;
+  }
+
   .container-hero {
     max-width: 540px;
   }
@@ -94,6 +141,11 @@
 
 /* =============================== 576 PX ============================= */
 @media (max-width: 576px) {
+  .navbar-list {
+    width: 70%;
+    padding-top: 1rem;
+  }
+
   .container-hero {
     max-width: 360px;
     width: 100%;
