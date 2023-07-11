@@ -122,7 +122,8 @@
 /* =============================== 768 PX ============================= */
 @media (max-width: 768px) {
   .navbar-list {
-    width: 50%;
+    width: 100%;
+    padding: 1rem 0rem;
   }
 
   .container-hero {
@@ -242,3 +243,8 @@
 }
 
 /* =============================== 375 PX ============================= */
+@media (max-width: 375px) {
+  .arte-container {
+    height: 250px;
+  }
+}
