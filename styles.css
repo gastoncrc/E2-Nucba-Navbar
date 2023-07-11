@@ -14,6 +14,7 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  color: var(--white);
 }
 
 html {
@@ -22,7 +23,6 @@ html {
 
 body {
   background-color: black;
-  /* height: 1200px; */
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
     url(./img/back-main.jpg);
@@ -248,7 +248,10 @@ main {
   width: 300px;
   height: 400px;
   gap: 1rem;
-  background-color: var(--red-transp);
+  background: var(--red-transp);
+  background: -webkit-linear-gradient(to top, #d89b16, var(--red-transp));
+  background: linear-gradient(to top, #d89b16, var(--red-transp));
+
   padding: 1rem 1rem;
   border-radius: 10px;
 }
@@ -280,7 +283,6 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  /* background-color: aqua; */
   max-width: 1200px;
   width: 100%;
   padding: 2rem 2rem;
@@ -297,7 +299,6 @@ main {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  /* height: 300px; */
   gap: 1rem;
 }
 
@@ -316,10 +317,25 @@ main {
   color: var(--white);
 }
 
+.central h3,
+.sucursal h3 {
+  color: var(--red);
+}
+
 .central ul li,
 .sucursal ul li {
   align-items: center;
   gap: 1rem;
+}
+
+.central ul li a:hover,
+.sucursal ul li a:hover {
+  color: var(--white);
+}
+
+.central ul li a:visited,
+.sucursal ul li a:visited {
+  color: var(--white);
 }
 
 .nets {
@@ -340,6 +356,12 @@ main {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+}
+
+.net-text,
+.net-text:hover,
+.net-text:visited {
+  color: var(--red);
 }
 
 .point,
