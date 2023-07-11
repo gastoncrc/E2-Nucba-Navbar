@@ -12,6 +12,7 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  border: solid red 1px;
 }
 
 /* =============================== 1200 PX ============================= */
@@ -124,12 +125,16 @@
   }
 
   .container-hero {
-    max-width: 760px;
+    max-width: 768px;
   }
 
   .info-dimetro {
     align-items: center;
     justify-content: center;
+  }
+
+  .arte-container {
+    height: 250px;
   }
 
   .container-products {
@@ -147,15 +152,10 @@
   }
 
   .container-hero {
-    max-width: 550px;
+    max-width: 576x;
     width: 100%;
     font-size: 1rem;
     padding: 1rem 0;
-  }
-
-  .info-dimetro {
-    /* max-width: 576px; */
-    margin: 0;
   }
 
   .info-dimetro h1 {
@@ -183,13 +183,14 @@
   }
 
   #about {
-    max-width: 550px;
-    height: none;
+    max-width: 576px;
     padding: 2rem 1rem;
+    background-color: aqua;
   }
 
   .arte-container {
     font-size: 14px;
+    height: 200px;
   }
 
   .arte-container h2 {
