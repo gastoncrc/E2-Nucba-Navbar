@@ -40,7 +40,7 @@
 
   .logo-navbar {
     display: flex;
-    width: 100px;
+    width: 50px;
   }
 
   .menu-label {
@@ -124,7 +124,7 @@
   }
 
   .container-hero {
-    max-width: 540px;
+    max-width: 760px;
   }
 
   .info-dimetro {
@@ -150,7 +150,12 @@
     max-width: 550px;
     width: 100%;
     font-size: 1rem;
-    padding: 1rem;
+    padding: 1rem 0;
+  }
+
+  .info-dimetro {
+    /* max-width: 576px; */
+    margin: 0;
   }
 
   .info-dimetro h1 {
