@@ -12,7 +12,7 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-  border: solid red 1px;
+  /* border: solid red 1px; */
 }
 
 /* =============================== 1200 PX ============================= */
@@ -61,7 +61,6 @@
     border-radius: 0px 0px 10px 10px;
     padding: 3rem 2rem;
     gap: 2rem;
-    /* align-items: flex-end; */
     background-color: var(--gray-dark);
     display: none;
   }
@@ -244,7 +243,15 @@
 
 /* =============================== 375 PX ============================= */
 @media (max-width: 375px) {
+  .info-dimetro {
+    height: 100%;
+  }
+
   .arte-container {
     height: 250px;
+  }
+
+  .info-dimetro h1 span {
+    font-size: 44px;
   }
 }
