@@ -12,7 +12,7 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-  /* border: solid red 1px; */
+  border: solid red 1px;
 }
 
 /* =============================== 1200 PX ============================= */
@@ -161,6 +161,10 @@
     width: 100%;
     font-size: 1rem;
     padding: 1rem 0;
+  }
+
+  .info-dimetro {
+    height: 100%;
   }
 
   .info-dimetro h1 {
