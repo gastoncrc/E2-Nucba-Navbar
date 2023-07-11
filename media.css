@@ -75,13 +75,17 @@
     display: flex;
   }
 
+  #hero {
+    width: 100%;
+  }
+
   .container-hero {
-    max-width: 740px;
     flex-direction: column;
+    padding: 1rem 0rem;
   }
 
   .info-dimetro {
-    width: 80%;
+    width: 100%;
     background-color: var(--gray);
   }
 
@@ -89,9 +93,6 @@
     display: none;
   }
 
-  #about {
-    max-width: 740px;
-  }
   .cards {
     flex-wrap: wrap;
     height: 100%;
@@ -146,6 +147,10 @@
 
 /* =============================== 576 PX ============================= */
 @media (max-width: 576px) {
+  header {
+    padding: 0 2rem;
+  }
+
   .navbar-list {
     width: 100%;
     padding-top: 1rem;
@@ -185,7 +190,6 @@
   #about {
     max-width: 576px;
     padding: 2rem 1rem;
-    background-color: aqua;
   }
 
   .arte-container {
